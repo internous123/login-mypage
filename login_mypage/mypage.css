@@ -1,0 +1,128 @@
+body{
+    margin:0 auto;
+    background-color:#f8f8f8;
+}
+
+header{
+    width:100%;
+    height:100px;
+    background-color:white;
+    box-shadow:2px 2px 4px lightgray;
+    text-align:center;
+}
+
+header img{
+    margin-top::15px;
+    width:10%;
+    padding-left:75px;
+    padding-top:18px;
+}
+
+.logout{
+    float:right;
+    margin-top:60px;
+    margin-right:20px;
+    font-size:18px;
+}
+main{
+    clear:left;
+    width:100%;
+}
+
+.box{
+    margin:0 auto;
+    border:lightgray solid 2px;
+    width:1100px;
+    height:770px;
+    background-color:white;
+    border-radius:10px;
+    margin-top:40px;
+    margin-bottom:40px;
+    box-shadow:4px 4px 4px lightgray;
+}
+
+h2{
+    text-align:center;
+    border-bottom:solid 2px #31A263;
+    font-size:30px;
+    
+}
+.hello{
+    text-align:left;
+    margin-left:45px;
+    padding-top:10px;
+    
+    font-size:30px;
+}
+
+.profile_pic{
+    display:inline-block;
+    border:solid 2px lightgray;
+    margin-left:70px;
+    
+}
+.profile_pic img{
+    width:180px;
+    height:190px;
+    padding:30px;
+    
+    
+}
+
+.basic_info{
+    display:inline-block;
+    vertical-align: 120%;
+    margin-left:50px;
+    font-size:30px;
+    margin-top:10px;
+    margin-left:70px;
+    margin-bottom: 50px;
+    
+}
+
+.comments{
+    text-align:left;
+    border-top:solid 1px lightgray;
+    margin:25px;
+    font-size:25px;
+     padding-bottom:95px;
+}
+.comments2{
+    text-align:left;
+    border-top:solid 1px lightgray;
+    margin:25px;
+    font-size:25px;
+    padding-bottom:5px;
+ 
+}
+.hensyubutton{
+    text-align: center;
+}
+.henkoubutton{
+    text-align: center;
+}
+
+.submit_button{
+    text-align: center;
+    border:1px solid lightgray;
+    color:white;
+    background-color:#31A263;
+    border-radius:5px;
+    border-bottom:solid 2px gray;
+    width:200px;
+    height:40px;
+}
+
+
+footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:50px;
+    background-color:white;
+    color:gray;
+    text-align:center;
+    line-height:40px;
+    font-size:13px;
+    border-top:lightgray solid 2px;
+}
